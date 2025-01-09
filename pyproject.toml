@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "oc-utils"
+version = "0.1.0"
+description = ""
+authors = ["eliarizzetto <elia.rizzetto@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+rdflib = "^7.1.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+tqdm = "^4.67.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
